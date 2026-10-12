@@ -1,0 +1,7 @@
+services:
+  web:
+    build: .
+    container_name: motion-flow7-app
+    restart: unless-stopped
+    ports:
+      - "3001:80"
